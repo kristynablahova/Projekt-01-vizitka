@@ -3,16 +3,124 @@ html { box-sizing: border-box; }
 *, ::after, ::before { box-sizing: inherit; }
 
 h1 {
-    text-align: center;
-    font-family: sans-serif;
-    color: brown;
-    background-color: beige;}
-
-p {
-    text-align: center;
-    font-family: serif;
-    font-style: italic;
-    color: black;
+    color: #22223B;
+    font-size: 60px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
 }
-
-li {display:inline-block;}
+header {
+    background-color: #9A8C98;
+    text-align: right;
+    margin: 0;
+    padding: 100px 50px ;
+}
+h2, h3 {
+    color: #22223B;
+}
+h2 {
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: left;
+}
+h3 {
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    text-align: center;
+}
+.skola, .prace {
+    background-color: #f2E9e4;
+    padding: 25px 50px;
+    margin: 0 0;
+    float: left;
+    display: inline-block;
+}
+.prace {
+    width: 40%;
+    height: 750px;
+}
+.skola {
+    width: 40%;
+    height: 750px;
+}
+.kontakty {
+    background-color:#9A8C98;
+    width: 20%;
+    display: inline-block;
+    height: 750px;
+    margin: 0;
+    padding: 20px;
+}
+.kontakty p {
+    font-size: 18px;
+    text-align: center;
+}
+.omne, .jazyky {
+    background-color: #c9ada7;
+    
+}
+a {
+    color:#22223B;
+    text-decoration: none;
+}
+a:hover {
+    color: #4A4E69;
+}
+body {
+    margin: 0 0;
+    line-height: 2;
+}
+.omne img {
+    border-radius: 25%;
+    width: 200px;
+    float: left;
+    margin-right: 70px;
+    padding: 0 0;
+}
+.omne {
+    overflow: auto;
+    padding: 25px 150px;
+}
+.omne p {
+    padding-left: 100px;
+}
+.kontakty img{
+    height: 35px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+p {
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: block;
+}
+li {
+    font-size: 35px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: left;
+}
+.jazyky {
+    margin: 0 0;
+    padding: 25px 600px;
+}
+.zajmy {
+    background-color: #f2E9e4;
+    margin: 0 0;
+    padding: 25px 200px;
+    text-align: center;
+}
+.jazyk {
+    text-align: left;
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 75%;
+}
+.uroven {
+    text-align: right;
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 25%;
+}
